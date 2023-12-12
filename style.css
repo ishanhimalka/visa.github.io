@@ -6020,6 +6020,27 @@ button.subscribe-button i {
       background-color: #222;
       color: #fff; 
   }
+.hide-button {
+	display: inline-block;
+	margin-left: 8px;    
+    margin: bottom 15px; 
+
+}
+.hide-button  {
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #f12a02;
+    padding: 12px 33px;
+    color: #fff;
+    display: inline-block;
+    background: #f12a02;
+    border-radius: 5px;
+    transition: .5s;
+}
+.hide-button:hover{
+	background:#f00;
+	color:wheat;
+}
 @keyframes ripple {
   0%, 35% {
     -webkit-transform: scale(0);
